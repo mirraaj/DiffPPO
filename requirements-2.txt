@@ -63,7 +63,7 @@ matplotlib
 -e git+https://github.com/NVlabs/mimicgen_environments.git@45db4b35a5a79e82ca8a70ce1321f855498ca82c#egg=mimicgen_envs
 mjrl @ git+https://github.com/aravindr93/mjrl@3871d93763d3b49c4741e6daeaebbc605fe140dc
 mpmath==1.3.0
-mujoco==2.2.1
+mujoco==2.3.2
 mujoco-py==2.1.2.14
 mypy-extensions==1.0.0
 natsort==8.4.0
