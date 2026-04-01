@@ -104,7 +104,7 @@ PyOpenGL
 pyparsing==2.4.7
 pyquaternion==0.9.9
 pyrallis==0.3.1
-PyRep==4.1.0.3
+PyRep==3.2.0
 PySocks==1.7.1
 python-dateutil
 python-xlib==0.33
