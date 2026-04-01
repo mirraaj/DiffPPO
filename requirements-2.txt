@@ -17,7 +17,7 @@ Cython==3.0.10
 d4rl==1.1
 dm-env==1.6
 dm-tree==0.1.8
-dm_control==1.0.5
+dm_control==1.0.7
 dmcgym @ git+https://github.com/conglu1997/dmcgym.git@812905790dd87a448c9544a0beccb8b05ea2a850
 docker-pycreds==0.4.0
 egl_probe==1.0.2
