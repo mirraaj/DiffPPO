@@ -60,7 +60,7 @@ lxml==5.2.2
 Markdown==3.6
 MarkupSafe==2.1.5
 matplotlib
-mimicgen-envs==0.1.0
+-e git+https://github.com/NVlabs/mimicgen.git#subdirectory=mimicgen_envs
 mjrl @ git+https://github.com/aravindr93/mjrl@3871d93763d3b49c4741e6daeaebbc605fe140dc
 mpmath==1.3.0
 mujoco==2.3.2
