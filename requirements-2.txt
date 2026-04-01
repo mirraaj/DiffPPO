@@ -17,7 +17,7 @@ Cython==3.0.10
 d4rl==1.1
 dm-env==1.6
 dm-tree==0.1.8
-dm_control @ git+https://github.com/deepmind/dm_control@f4e5e2336991017361f563db7e676fd08857076f
+dm_control==1.0.14
 dmcgym @ git+https://github.com/conglu1997/dmcgym.git@812905790dd87a448c9544a0beccb8b05ea2a850
 docker-pycreds==0.4.0
 egl_probe==1.0.2
@@ -60,7 +60,8 @@ lxml==5.2.2
 Markdown==3.6
 MarkupSafe==2.1.5
 matplotlib
--e git+https://github.com/NVlabs/mimicgen_environments.git@45db4b35a5a79e82ca8a70ce1321f855498ca82c#egg=mimicgen_envs
+-e git+https://github.com/NVlabs/
+mimicgen-envs==0.1.0
 mjrl @ git+https://github.com/aravindr93/mjrl@3871d93763d3b49c4741e6daeaebbc605fe140dc
 mpmath==1.3.0
 mujoco==2.3.2
@@ -148,7 +149,7 @@ torchvision==0.15.2
 tqdm==4.66.4
 transformers==4.41.0
 typing-inspect==0.9.0
-typing_extensions==4.5.0
+typing_extensions==4.8.0
 tzdata
 unicodedata2
 urllib3==2.2.1
