@@ -436,6 +436,7 @@ class PPO(PolicyAlgo, ValueAlgo):
         # 最大似然：-log p_psi(a|s)（只更新 LoRA 参数）
         mu_p, ls_p = self.nets['prior'](obs)  # 前向只涉及 LoRA；编码器冻结
         dist_p = Normal(mu_p, ls_p.exp())
+        print("The action value is : ", actions)
         pet_loss = - dist_p.log_prob(actions).sum(-1).mean()
 
         self.pet_optimizer.zero_grad(set_to_none=True)
